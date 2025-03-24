@@ -1,0 +1,48 @@
+.ven {
+  /* background-color: black; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.vendor1 {
+  /* background-color: aliceblue; */
+  width: 40%;
+  height: 100%;
+  border: none;
+}
+.vendor1 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+  border: none;
+  /* background-color: aqua; */
+}
+.vendor2 {
+  /* background-color: aliceblue; */
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.ven11 {
+  background-color: rgb(228, 231, 231);
+  border-color: 1px solid gray;
+  height: 23%;
+  width: 100%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ven11:hover {
+  border-color: rgb(48, 7, 233);
+  background-color: rgb(204, 213, 226);
+}

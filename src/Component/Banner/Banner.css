@@ -1,0 +1,63 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+  /* background-color: #1f1d1d; */
+  height: 60%;
+  margin-top: 10px;
+}
+
+.banner-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 100%;
+}
+
+.light-orange {
+  background-color: #fde7c3;
+}
+
+.light-pink {
+  background-color: #ffd7eb;
+}
+
+.banner-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.banner-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.banner-text p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.shop-button {
+  padding: 8px 16px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.shop-button:hover {
+  background: #4861f1;
+  color: white;
+}
