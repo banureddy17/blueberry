@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../Vendors/Vendors.css";
-// import { useState } from "react";
+
 import mira from "../../Assets/mira.jpg";
 import eelna from "../../Assets/eelna.jpg";
 import mario from "../../Assets/mario.jpg";
